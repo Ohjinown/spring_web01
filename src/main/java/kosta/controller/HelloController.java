@@ -16,9 +16,9 @@ public class HelloController {
 //        return mav;
 //    }
 
-    @RequestMapping("/hello2.do")
-    public String hello2(Model model) {
-        model.addAttribute("message", "Hellasdasdo Springasdasd");
-        return "hello";
-    }
+//    @RequestMapping("/hello2.do")
+//    public String hello2(Model model) {
+//        model.addAttribute("message", "Hellasdasdo Springasdasd");
+//        return "hello";
+//    }
 }
